@@ -1,10 +1,10 @@
 // Independently authored items. Same broad learning objectives; difficulty has not been statistically equated.
 export const questions = [
   [
-    "Could you give me your family name, please?",
+    "Could I have your surname, please?",
     [
-      "Do you prefer my first name?",
-      "Shall I write it down for you?",
+      "Is that your first name?",
+      "Shall I spell it for you?",
       "What does it mean?"
     ],
     1
@@ -50,7 +50,7 @@ export const questions = [
     [
       "I've heard about it.",
       "It was quite interesting.",
-      "I'd rather get an early night."
+      "I'm too tired this evening."
     ],
     2
   ],
@@ -58,7 +58,7 @@ export const questions = [
     "Do you mind if I join your group?",
     [
       "I'd be pleased to.",
-      "Not at all; come over.",
+      "Of course you can.",
       "I'm not sure whether I can."
     ],
     1
@@ -113,7 +113,7 @@ export const questions = [
     [
       "That would take too long.",
       "The bus was crowded.",
-      "We can buy tickets."
+      "The station opened last year."
     ],
     0
   ],
@@ -186,7 +186,7 @@ export const questions = [
     1
   ],
   [
-    "Don't buy more juice; we've already got ...... of it in the fridge.",
+    "We've got ...... of juice for everyone.",
     [
       "plenty",
       "enough",
@@ -206,7 +206,7 @@ export const questions = [
     3
   ],
   [
-    "...... the low beam when you enter the shed.",
+    "...... the broken glass near the door.",
     [
       "Mind",
       "Attend",

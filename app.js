@@ -1,4 +1,4 @@
-import {questions,complete,score} from './questions.js?v=4';
+import {questions,complete,score} from './questions.js?v=5';
 const key='english-check-original-v2';let state={answers:Array(25).fill(null),page:0,submitted:false};
 try{const saved=JSON.parse(localStorage.getItem(key));if(saved&&Array.isArray(saved.answers)&&saved.answers.length===25){state.answers=saved.answers.map((v,i)=>Number.isInteger(v)&&v>=0&&v<questions[i][1].length?v:null);state.page=Number.isInteger(saved.page)?Math.max(0,Math.min(4,saved.page)):0;state.submitted=saved.submitted===true&&complete(state.answers);}}catch{}
 const main=document.querySelector('main');let storageOK=true;
